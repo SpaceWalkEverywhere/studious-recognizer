@@ -24,10 +24,27 @@
         <label>Webcam view</label>
         <br>
         <div id="cam"></div>
-        <button type="button" onclick="snap();" class="btn btn-success">Capture Image</button>
+        <button id="snap" type="button" onclick="snap();" class="btn btn-success">Capture Image</button>
       </div>
-    </center>
+      <div class="col-sm-6 col-xs-12 md">
+        <label>Snapshot view</label>
+        <br>
+        <div id="output"></div>
+        <button id="check" type="button" onclick="identify();" class="btn btn-success">Identify Image</button>
+      </div>
+      <div class="footer">
+        <h4 class="col-sm-6 col-xs-12">
+          <img src="bulb.gif">
+          <span id="result">
 
+          </span>
+        </h4>
+      </div>
+      <br><hr><br>
+    </center>
+    <div class="copyright">
+    Devloped by SpaceWalk      
+    </div>      
 
     
 <script src="main.js"></script>

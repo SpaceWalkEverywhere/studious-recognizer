@@ -1,6 +1,7 @@
 body {
     font-family: 'Special Elite',cursive;
     background: #00f2f2;
+    top: 0;
 }
 .head-div{
     background: #ffffff;
@@ -22,7 +23,7 @@ body {
     margin-bottom: 0px;
     box-shadow: 5px 10px 8px #000;
 }
-#cam{
+#cam,#output{
     border: 2px solid #ffffff;
     width: 310px;
     height: 300px;
@@ -33,4 +34,26 @@ body {
     font-size:15px;
     box-shadow: 8px 8px 8px #000;
     border: 1px solid #000000;
+}
+.footer{
+    margin-bottom: 100px;
+}
+.footer h4 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 20px #000000;
+}
+.footer img {
+    width: 70px;
+    float: left;
+}
+.copyright {
+    position:fixed;
+    color:grey;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    line-height: 3;
+    text-align: center;
 }
